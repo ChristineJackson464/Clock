@@ -19,12 +19,14 @@ html {
 }
 
 .clock {
-  background-color: #acacac;
+  background-image: url(logo.png);
+  background-color: #d1ced9;
+  background-size: cover;
   height: 35rem;
   width: 35rem;
   border-radius: 50%;
   border: 0.5rem solid #fff;
-  box-shadow: 0.5rem 0.5rem 1rem #555, -0.5rem -0.5rem 1rem #555;
+  box-shadow: 0.5rem 0.5rem 1rem #75595d, -0.5rem -0.5rem 1rem #555;
   position: relative;
 } 
 
@@ -81,7 +83,7 @@ html {
   width: 2.5rem;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0.2rem 0.2rem 0.5rem #777;
+  box-shadow: 0.2rem 0.2rem 0.5rem #75595d;
   z-index: 10;
 }
 
@@ -92,7 +94,7 @@ html {
   background-color: #fff0f5;
   position: absolute;
   bottom: 50%;
-  box-shadow:  0.2rem 0.2rem 0.5rem #777;
+  box-shadow:  0.2rem 0.2rem 0.5rem #75595d;
   border-radius: 100% 100% 0 0;
   transform-origin: bottom center;
 }
@@ -103,6 +105,6 @@ html {
 } 
 
 .arrows .second {
-  background-color: #24cfe6;
+  background-color: #75595d;
   transform: rotate(270deg);
 }
